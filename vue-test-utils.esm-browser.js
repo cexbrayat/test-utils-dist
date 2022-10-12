@@ -10172,7 +10172,6 @@ const isMemberExpressionBrowser = (path) => {
   }
   return !currentOpenBracketCount && !currentOpenParensCount;
 };
-NOOP;
 const isMemberExpression = isMemberExpressionBrowser;
 function getInnerRange(loc, offset, length) {
   const source = loc.source.slice(offset, offset + length);
