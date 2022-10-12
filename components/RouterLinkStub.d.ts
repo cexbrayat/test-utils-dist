@@ -1,7 +1,7 @@
 export declare const RouterLinkStub: import("vue").DefineComponent<
   {
     to: {
-      type: (StringConstructor | ObjectConstructor)[];
+      type: (ObjectConstructor | StringConstructor)[];
       required: true;
     };
     custom: {
@@ -23,7 +23,7 @@ export declare const RouterLinkStub: import("vue").DefineComponent<
   Readonly<
     import("vue").ExtractPropTypes<{
       to: {
-        type: (StringConstructor | ObjectConstructor)[];
+        type: (ObjectConstructor | StringConstructor)[];
         required: true;
       };
       custom: {
